@@ -6,6 +6,7 @@ html,body{
   padding: 0;
   margin: 0;
   font-family: "Outfit", sans-serif;
+  
 }
 
 :root {
@@ -18,4 +19,92 @@ html,body{
   --very-dark-blue-card-bg: hsl(216, 50%, 16%);
   --very-dark-blue-line: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
+}
+
+.App{
+  background-color: var(--very-dark-blue-main-bg);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  
+}
+
+.nft{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 2em;
+  background-color: var(--very-dark-blue-card-bg);
+  margin:2em;
+  border-radius: 20px;
+  gap: 1em;
+}
+
+.content-info h1{
+  color: var(--white);
+  font-weight: 600;
+}
+
+.content-info p{
+  color: var(--soft-blue);
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.l-icon{
+  display: flex;
+  align-items:center;
+  color: var(--cyan);
+  gap: 0.5em;
+  font-size: 0.9rem;
+  font-weight: 300;
+  
+  
+}
+
+.r-icon{
+  display: flex;
+  align-items:center;
+  color: var(--soft-blue);
+  gap: 0.5em;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+hr{
+  width: 100%;
+  color: var(--very-dark-blue-line);
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--soft-blue);
+  
+}
+
+span{
+  color: white;
+}
+
+.profile-img{
+  width: 15%;
+  border: 0.0125rem solid white;
+  border-radius: 50%;
 }
