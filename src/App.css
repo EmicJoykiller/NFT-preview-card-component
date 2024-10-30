@@ -27,7 +27,7 @@ html,body{
   height: 100vh;
   display: flex;
   justify-content: center;
-  flex: 1;
+  
   
 }
 
@@ -107,4 +107,15 @@ span{
   width: 15%;
   border: 0.0125rem solid white;
   border-radius: 50%;
+}
+
+@media(min-width:400px ){
+  .App{
+    align-items: center;
+  }
+
+  .card {
+    max-width: 400px; 
+    margin: 0; 
+  }
 }
