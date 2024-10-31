@@ -4,8 +4,12 @@ function App() {
   return (
     <div className="App">
       <article className="card">
+        <div className="img-container">
         <img className="nft" src="/images/image-equilibrium.jpg" alt="nft" />
-
+        <div className="overlay">
+          <img className="overlay-icon" src="/images/icon-view.svg" alt="view" />
+        </div>
+        </div>
         <div className="content-info">
           <h1>Equilibrium #3429</h1>
           <p>
