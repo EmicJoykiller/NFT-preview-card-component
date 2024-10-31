@@ -1,3 +1,12 @@
+
+![desktop-design](https://github.com/user-attachments/assets/4f7acbf9-c0ec-4f9a-b953-75ab55dcbfb4)
+![active-states](https://github.com/user-attachments/assets/28512a24-1df8-4c85-ba43-429c00acacf7)
+![mobile-design](https://github.com/user-attachments/assets/e4d7a144-02c5-4658-8a04-870a982cfcc9)
+
+
+"This project showcases an interactive NFT preview card component built with React and styled using modern CSS techniques, designed to deliver an engaging and visually appealing user experience. The project emphasizes responsive design principles, ensuring optimal display across desktop and mobile devices. Leveraging CSS animations and transitions, I created a hover overlay effect that elegantly displays additional information, providing a smooth, user-friendly interaction. The component demonstrates a strong command of React’s component-based architecture, making it modular and scalable. This project highlights my skills in front-end development, design, and UI/UX principles, presenting a visually cohesive and responsive application."
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
